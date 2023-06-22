@@ -17,8 +17,11 @@
 
 * {/* configuração global */
     margin: -2px;
-    text-align: center;
+    text-align: center; 
 }
+
+h2, h3 {padding: 0px 3%;}
+p {padding: 0px 6%;}
 
 #imc1 {
     margin-top: 40px;
@@ -201,6 +204,7 @@ p {
     background-size: cover;
     background-attachment: fixed;
 }
+
 
 h2{
     text-align: center;
