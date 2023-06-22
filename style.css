@@ -118,6 +118,15 @@ p {
     @media (max-width: 1180px) {
         nav > .button{display: none;text-decoration: none;}
         div {text-align: center;}
+        #imc1 {
+            margin-right: 100px;
+            width: 400px;
+        }  
+        #img1 {
+            margin: 0px 0px 0px 45%;
+            width: 100%;
+            max-width: 450px;
+        }
          
 
     }
@@ -145,8 +154,17 @@ p {
         .logo {
             width: 60px;
         }
-        
+        #imc1 {
+            background-color: transparent;
+            margin: 0px;
+            width: 300px;
+        }  
+        #img1 {
+            margin: 0px;
+            width: 100%;
+            max-width: 470px;
       }
+    }
     @media (max-width: 600px) {
         nav > h3 {
             display: none;}
@@ -163,6 +181,7 @@ p {
             nav > img {
                 display: none;}
         }
+    }
 
 #p1, #p3, #p5, #p6 {
     margin: auto;
