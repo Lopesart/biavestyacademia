@@ -16,11 +16,21 @@
 }
 
 * {/* configuração global */
+    text-decoration: none;
     margin: -2px;
     text-align: center; 
 }
-
-h2, h3 {padding: 0px 3%;}
+section > h1 {
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
+    color: var(--cor5);
+    font-size: 3em;
+    padding: 0px 3%;}
+h2, h3 {
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
+    margin-top: 1px;
+    color: var(--cor5);
+    font-size: 2em;
+    padding: 0px 3%;}
 p {padding: 0px 6%;}
 
 #imc1 {
@@ -169,7 +179,7 @@ p {
             width: 60px;
         }
         #imc1 {
-            background-color: transparent;
+            background-color: rgba(255, 255, 255, 0.331);
             margin: 0px;
             width: 300px;
         }  
@@ -181,6 +191,12 @@ p {
       .txtbg > img {width: 500px;}
     }
     @media (max-width: 600px) {
+        section > h1 {
+            font-size: 2em;
+            padding: 0px 3%;}
+        h2, h3 {
+            font-size: 1em;
+            padding: 0px 3%;}
         nav > h3 {
             display: none;}
         /* Quando a largura da div for menor ou igual a 600px */
@@ -190,6 +206,13 @@ p {
         .logo {
             width: 40px;
         }
+        #imc1 {
+            background-color: rgba(255, 255, 255, 0.331);
+            margin: 0px;
+            width: 300px;
+            height: 400px;
+        }  
+        #img1 {max-height: 400px;}
         #pp1 {margin-top: 15px;}
         .txtbg > img {display: none;
             width: 150px;
