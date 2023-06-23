@@ -55,8 +55,28 @@
                 </svg>
            
             <h2>Sabe como esta seu Indice de Massa Corporal "IMC" ???</h2>
+            
             <img src="imagens/bialegpress.png" alt="bia no leg press" id="img1">
-            <div id="imc1"></div>
+            <div id="imc1">
+                <div>
+                    <p class="imc">Peso em kg:</p> 
+                    <input type="number" name="txtpeso" id="txtpeso" min="0" class="imc">
+                    <p class="imc">Altura em Centimetros:</p> 
+                    <input type="number" name="txtaltura" id="txtaltura" min="0" class="imc">
+                    <p class="imc">Sexo:<br>
+                     <input type="radio" name="radsex" id="mas" checked class="imc">
+                     <label for="mam" class="imc">Homem</label>
+                     <input type="radio" name="radsex" id="fem" class="imc">
+                     <label for="fem" class="imc">Mulher</label>
+                    </p>
+                    <p>
+                     <input type="button" value="Verificar" onclick="verificar()" id="bt" class="imc">
+                    </p>
+                 </div>
+                 <div id="res" class="imc">
+                     Preencha os dados acima para ver o seu IMC!
+                 </div>
+            </div>
             
 
         </section>
@@ -70,11 +90,25 @@
                 </svg>
             
             <h2>Personal Treiner</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat esse animi labore quo corporis incidunt atque odio itaque, similique eos harum voluptatum enim repellendus officiis, quia molestiae accusantium vitae provident?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, eaque! Vel provident autem officia nihil cupiditate inventore facilis similique labore sed non quae, illo expedita quas eius quisquam praesentium impedit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic atque dolore autem quibusdam fuga ex perferendis commodi vitae dignissimos corrupti saepe doloremque, temporibus necessitatibus accusamus, quidem ut aliquam ab asperiores.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis molestiae quasi dolor quas id tenetur quidem, qui nostrum, quos ratione dolore. Dignissimos, in tempora? Corrupti earum a laudantium deleniti. Commodi.
-            </p>
-           
-            <p>2</p>
+            <div id="txtbg">
+                <img src="svg/treino.svg" alt="Imagen SVG" class="svgp">
+                <p class="txtbg" style="border-radius: 15px 15px 0px 0px;">
+                    <img src="svg/treino.svg" alt="Imagen SVG">
+                    Olá! Sou personal trainer e meu propósito é ajudar você a alcançar o seus objetivos de forma eficiente, segura e divertida.
+                <br><br>
+                    Com uma abordagem baseada na funcionalidade do corpo humano, trabalho para desenvolver sua força, resistência, flexibilidade e equilíbrio. Acredito que o treinamento funcional é essencial para melhorar sua qualidade de vida, tornando suas atividades diárias mais fáceis e prevenindo lesões.
+                </p><img src="svg/nutricao.svg" alt="Imagen SVG" class="svgp"><p class="txtbg">
+                    <img src="svg/nutricao.svg" alt="Imagen SVG">
+                    No que diz respeito ao emagrecimento, ofereço um programa completo, que combina exercícios aeróbicos, treinamento de força e orientação nutricional. Trabalharemos juntos para criar um plano personalizado, adaptado às suas necessidades e preferências, garantindo resultados duradouros e saudáveis.
+                </p><p class="txtbg">
+                    Se seu objetivo é ganhar massa muscular, estou aqui para ajudar. Utilizo técnicas avançadas de treinamento de força, combinadas com estratégias nutricionais específicas, para maximizar seus ganhos musculares. Vamos trabalhar na construção de um corpo mais forte, definido e atlético.
+                </p><p class="txtbg">
+                    Acredito que a chave para o sucesso é a motivação e o apoio mútuo. Durante nossas sessões, estarei ao seu lado, incentivando-o a superar seus limites e alcançar seus objetivos. Além disso, estarei disponível para tirar suas dúvidas, fornecer orientações e ajustar o programa de treinamento conforme necessário.
+                </p><p class="txtbg">
+                    Independentemente do seu nível de condicionamento físico atual, estou aqui para ajudá-lo a se tornar a melhor versão de si mesmo. Seja você um iniciante buscando um estilo de vida mais saudável, um atleta em busca de melhor desempenho ou alguém que deseja transformar completamente seu corpo, estou pronto para acompanhá-lo nessa jornada.
+                </p><p class="txtbg" style="border-radius: 0px 0px 15px 15px;">
+                    Entre em contato comigo para agendar uma avaliação inicial e vamos começar a trabalhar juntos rumo ao seu sucesso. Estou ansioso para ajudá-lo a alcançar seus objetivos de funcionalidade, emagrecimento e ganho de massa muscular. Vamos fazer isso!</p>
+            </div>
         </section>
         <section id="p3"><!-- assuntos -->
        

@@ -4,9 +4,9 @@
     --cor0: #ffd4f6;
     --cor1: #ffbef1;
     --cor2: #ffa5eb;
-    --cor3: #dd4fbe;
-    --cor4: #931678;
-    --cor5: #7a0761;
+    --cor4: #dd4fbe;
+    --cor5: #71125c;
+    --cor3: #9482ff;
     --cor6: #000000;
     --cor7: #ffffff;
   
@@ -118,6 +118,7 @@ p {
     text-align: justify;
     max-width: 800px;
 }
+.svgp {display: none;}
     @media (max-width: 1180px) {
         nav > .button{display: none;text-decoration: none;}
         div {text-align: center;}
@@ -147,6 +148,16 @@ p {
                 width: 100%;
                 max-width: 500px;
             }
+            .imc{
+                font-size: 1.7em;
+                padding: 10px;
+                margin-top: 5px;
+                text-align: center;
+            }
+            .txtbg > img {
+                width: 1000px;
+                margin: 0px 5px 0px 0px}
+            
     }
     
     @media (max-width: 900px) {
@@ -167,6 +178,7 @@ p {
             width: 100%;
             max-width: 470px;
       }
+      .txtbg > img {width: 500px;}
     }
     @media (max-width: 600px) {
         nav > h3 {
@@ -179,10 +191,19 @@ p {
             width: 40px;
         }
         #pp1 {margin-top: 15px;}
+        .txtbg > img {display: none;
+            width: 150px;
+            margin: 0px 5px 0px 0px}
+        .svgp {
+            width: 150px;
+            display: flex;
+            justify-content: center;}
     }
     @media (min-width: 600px) {
             nav > img {
+                text-align: center;
                 display: none;}
+                
         }
     
 
@@ -204,7 +225,23 @@ p {
     background-size: cover;
     background-attachment: fixed;
 }
+.containerbg {
+    display: flex;
+    align-items: center;
+  }
 
+.txtbg {
+    display: flex;
+    align-items: center;
+    padding: 5px 4%;
+    color: var(--cor7);
+    font-size: 1.2em;
+    background-color: #00000053;
+}
+#txtbg {
+    display: inline;
+    
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445);}
 
 h2{
     text-align: center;
